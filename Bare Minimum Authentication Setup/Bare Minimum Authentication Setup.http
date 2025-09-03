@@ -1,0 +1,14 @@
+@Bare_Minimum_Authentication_Setup_HostAddress = http://localhost:5053
+ 
+
+###
+
+GET {{Bare_Minimum_Authentication_Setup_HostAddress}}/login
+
+###
+
+GET {{Bare_Minimum_Authentication_Setup_HostAddress}}/logout
+
+###
+
+GET {{Bare_Minimum_Authentication_Setup_HostAddress}}/user
