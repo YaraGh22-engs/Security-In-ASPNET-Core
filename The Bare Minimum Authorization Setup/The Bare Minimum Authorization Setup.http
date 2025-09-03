@@ -1,0 +1,34 @@
+@The_Bare_Minimum_Authorization_Setup_HostAddress = http://localhost:5177
+
+ 
+
+###
+
+###
+
+GET {{The_Bare_Minimum_Authorization_Setup_HostAddress}}/login
+
+###
+
+GET {{The_Bare_Minimum_Authorization_Setup_HostAddress}}/logout
+
+###
+
+GET {{The_Bare_Minimum_Authorization_Setup_HostAddress}}/user
+
+###
+
+GET {{The_Bare_Minimum_Authorization_Setup_HostAddress}}/secure
+
+###
+
+GET {{The_Bare_Minimum_Authorization_Setup_HostAddress}}/supervisor-only
+
+###
+
+GET {{The_Bare_Minimum_Authorization_Setup_HostAddress}}/admin-only
+
+###
+
+
+POST {{The_Bare_Minimum_Authorization_Setup_HostAddress}}/drive/bus
